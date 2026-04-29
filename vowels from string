@@ -1,0 +1,3 @@
+a="RAJUVARMA IS FROM CHENNAI"
+b=" ".join("cute"+i for i in a if i in "AEIOUS")  
+print(b)
