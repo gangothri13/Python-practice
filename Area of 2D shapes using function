@@ -1,0 +1,30 @@
+def square():
+    s=int(input("Enter side value:"))
+    print("Area:",s*s)
+def rectangle(a,b):
+    print("Area:",a*b)
+def circle():
+    r=int(input("Enter radius:"))
+    return 3.14*r*r
+def triangle(b,h):
+    return 0.5*b*h
+
+while(True):
+    print("1.Square   2.rectangle   3.Circle   4.Triangle   5.exit")
+    a=int(input("Enter your choice: "))
+    if a==1:
+        square()
+    elif a==2:
+        l=int(input("Enter length: "))
+        b=int(input("Enter breath: "))
+        rectangle(l,b)
+    elif a==3:
+        x=circle()
+        print("Area: ",x)
+    elif a==4:
+        b=int(input("Enter base: "))
+        h=int(input("Enter height: "))
+        y=triangle(b,h)
+        print("Area: " ,y)
+    else:
+        break
