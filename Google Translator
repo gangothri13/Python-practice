@@ -1,0 +1,6 @@
+from googletrans import Translator
+t=Translator()
+a=input("enter any word:")
+b=input("enter target language:")
+res.translate(a,dest=b)
+print(res.text)
